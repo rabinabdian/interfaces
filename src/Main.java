@@ -17,8 +17,9 @@ public class Main {
         c.deltaY=1;
 
         c.draw();
-
-
+        Shape.moveAndDraw(c);
+        System.out.println("------- after calling moveAndDraw -------- ");
+        c.draw();
 
 
 

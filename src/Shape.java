@@ -10,6 +10,8 @@ abstract class Shape {
 
     public abstract void draw();
 
+
+
     public static void moveAndDraw (Shape s)
     {
         // Write in class Example a static function moveAndDraw which accepts a shape as a parameter   , moves it 1 on x, 1 on y, and then draws it
