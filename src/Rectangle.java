@@ -1,5 +1,8 @@
-public class Rectangle extends Shape{
+public class Rectangle implements Shape{
 
+
+    int deltaX;
+    int deltaY;
 
 
 
@@ -16,12 +19,11 @@ public class Rectangle extends Shape{
         //  draw should print something like "Circle at xPos=5 yPos= 10"
         System.out.println("Rectangle at xPos= " +this.deltaX + " yPos= " +this.deltaY );}
 
-
-
-
-
-
-
+    @Override
+    public void moveAndDraw() {
+        this.deltaX ++;
+        this.deltaY++;
+    }
 
 
 }

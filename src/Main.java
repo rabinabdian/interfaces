@@ -17,9 +17,14 @@ public class Main {
         c.deltaY=1;
 
         c.draw();
-        Shape.moveAndDraw(c);
+       c.moveAndDraw();
         System.out.println("------- after calling moveAndDraw -------- ");
         c.draw();
+
+//Interfaces
+// Excercise 10:
+// Turn your abstract class Shape into an interface
+// What changes do you need to make?
 
 
 
