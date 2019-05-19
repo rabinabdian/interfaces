@@ -10,5 +10,8 @@ interface  Shape {
 
     public void moveAndDraw ();
 
+    public void whoAmI();
+
+
 
 }

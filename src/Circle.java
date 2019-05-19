@@ -22,4 +22,9 @@ int deltaX;
         this.deltaX ++;
         this.deltaY++;
     }
+
+    @Override
+    public void whoAmI() {
+        System.out.println("Class Type Is :  " + this.getClass().getName());
+    }
 }
